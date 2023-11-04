@@ -51,5 +51,3 @@ def take_command(recognizer_type=Recognizer.google):
         return "None"
     return query
 
-
-query = take_command().lower()
