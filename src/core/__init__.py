@@ -1,0 +1,1 @@
+from .speechrec import generateTextFromSpeech

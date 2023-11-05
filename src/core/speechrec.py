@@ -35,7 +35,7 @@ def recognize(recognizer, recognizer_type, audio, language):
 
     return query
 
-def take_command(recognizer_type=Recognizer.google):
+def generateTextFromSpeech(recognizer_type=Recognizer.google):
     #It takes microphone input from the user and returns string output
     r = sr.Recognizer()
     with sr.Microphone() as mic:
